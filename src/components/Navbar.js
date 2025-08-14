@@ -5,14 +5,12 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -42,11 +40,13 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand as={Link} to="/" className="d-flex">
-          <span style={{ 
-            color: "#8b5cf6", 
-            fontSize: "1.5rem", 
-            fontWeight: "bold" 
-          }}>
+          <span
+            style={{
+              color: "#8b5cf6",
+              fontSize: "1.5rem",
+              fontWeight: "bold",
+            }}
+          >
             Portfolio
           </span>
         </Navbar.Brand>
@@ -103,7 +103,9 @@ function NavBar() {
                   transition: "color 0.3s ease",
                 }}
               >
-                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} />{" "}
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
