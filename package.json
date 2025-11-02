@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://prabujayant.github.io/Prabu123",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
